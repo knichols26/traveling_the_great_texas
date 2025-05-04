@@ -1,0 +1,104 @@
+* {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    color: #336699;
+}
+h2, h3 {
+ color: #336699;
+}
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+a {
+    color: #336699;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+nav {
+    background-color: #336699;
+    margin: 0 auto;
+}
+
+.nav-bar {
+ width: 100%;
+ margin: 0 auto;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: text-decoration 3s;
+}
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+ul {
+    
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+li {
+    margin-bottom: 0px;
+ list-style-type: none;
+}
+
+.credits {
+    font-size: 0.6em;
+    margin-top: 40px;
+    color: #555;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+.credits ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+.city-image {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#contact-us form {
+ padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+}
+
